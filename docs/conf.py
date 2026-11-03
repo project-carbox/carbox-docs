@@ -20,6 +20,9 @@ author = 'Suleiman M Hajizadeh & Garib N Murshudov'
 release = '0.4.5'
 version = '0.4.5'
 
+# Base URL for canonical links and search engine discovery
+html_baseurl = 'https://project-carbox.readthedocs.io/en/latest/'
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -29,7 +32,29 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
+    'sphinx_sitemap',
 ]
+
+# Sitemap configuration
+sitemap_url_scheme = '{link}'
+
+# Global metadata for Search Engine Optimization (SEO / Google / Bing)
+html_meta = {
+    'description': 'Official scientific documentation for Project Carbox: high-throughput macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and Low-Barrier Hydrogen Bond (LBHB) discovery.',
+    'keywords': 'Carbox, Macromolecular Crystallography, LBHB, Low Barrier Hydrogen Bonds, Garib Murshudov, Suleiman Hajizadeh, Servalcat, REFMAC5, PDB validation, carboxyl protonation, pKa shifts, PROPKA, crystallography, structural biology',
+    'author': 'Suleiman M Hajizadeh & Garib N Murshudov',
+    'robots': 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+    'googlebot': 'index, follow',
+    'og:title': 'Carbox Documentation | Project Carbox',
+    'og:description': 'Official scientific documentation for Project Carbox: high-throughput macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and LBHB discovery.',
+    'og:type': 'website',
+    'og:url': 'https://project-carbox.readthedocs.io/en/latest/',
+    'og:image': 'https://raw.githubusercontent.com/project-carbox/project-carbox.github.io/main/assets/carbox_logo.svg',
+    'twitter:card': 'summary_large_image',
+    'twitter:title': 'Carbox Documentation | Project Carbox',
+    'twitter:description': 'Official scientific documentation for Project Carbox: crystallographic validation, anomalous carboxyl protonation, and LBHB discovery.',
+    'twitter:image': 'https://raw.githubusercontent.com/project-carbox/project-carbox.github.io/main/assets/carbox_logo.svg',
+}
 
 # Mock scientific dependencies to ensure lightweight and reliable builds on Read the Docs
 autodoc_mock_imports = [
@@ -70,6 +95,7 @@ myst_heading_anchors = 3
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['assets']
+html_extra_path = ['robots.txt']
 html_title = 'Carbox Documentation'
 html_logo = 'assets/carbox_logo.png'
 html_favicon = 'assets/carbox_logo.png'
