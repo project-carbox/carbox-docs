@@ -10,7 +10,7 @@
 
 **Version:** 0.4.5 (2026 Milestone Edition)  
 **License:** Mozilla Public License 2.0 (MPL-2.0)  
-**Repository:** [https://github.com/carbox/carbox](https://github.com/carbox/carbox)
+**Repository:** [https://github.com/project-carbox/carbox](https://github.com/project-carbox/carbox)
 
 ---
 

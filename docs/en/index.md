@@ -2,10 +2,10 @@
 
 **Structural Identification of Anomalous Carboxyl Protonation States, Low-Barrier Hydrogen Bonds, and Microenvironment Dielectric Shielding in High-Resolution Macromolecular Crystal Structures**
 
-**Authors:** Carbox Architecture Team & CarboxMol Engineering Group  
+**Authors:** Suleiman M Hajizadeh & Garib N Murshudov  
 *Release:* 2026  
 *Platform:* Carbox Computational Structural Biology Platform  
-\* *Corresponding author:* `team@carbox.org`
+\* *Corresponding author:* `suleyman.hacizade1@gmail.com`
 
 ---
 
@@ -40,7 +40,7 @@ The suite is divided into two focused systems:
 
 ### Installing from Source
 ```bash
-git clone https://github.com/carbox/carbox.git
+git clone https://github.com/project-carbox/carbox.git
 cd Carbox
 pip install -e .
 ```
@@ -58,19 +58,19 @@ carboxmol --help
 
 When using Carbox or CarboxMol in your academic or industrial research, please cite:
 
-> **Carbox & CarboxMol Engineering Group (2026).**  
+> **Suleiman M Hajizadeh & Garib N Murshudov (2026).**  
 > *Carbox & CarboxMol: Automated Identification, Quantum Simulation, and Refinement of Anomalous Carboxyl Protonation States in Macromolecular Crystallography.*  
 > Carbox Computational Structural Biology Platform.
 
 ### BibTeX
 ```bibtex
 @article{Carbox2026,
-  author    = {{Carbox & CarboxMol Engineering Group}},
+  author    = {{Suleiman M Hajizadeh & Garib N Murshudov}},
   title     = {Structural Identification of Anomalous Carboxyl Protonation States, Low-Barrier Hydrogen Bonds, and Microenvironment Dielectric Shielding in High-Resolution Protein Crystal Structures},
   journal   = {Carbox & CarboxMol Macromolecular Crystallography Suite},
   year      = {2026},
   publisher = {Carbox Computational Structural Biology Platform},
-  url       = {https://github.com/carbox/carbox}
+  url       = {https://github.com/project-carbox/carbox}
 }
 ```
 

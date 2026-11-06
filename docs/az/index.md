@@ -2,10 +2,10 @@
 
 **Yüksək Ayırdetməli Makromolekulyar Kristal Strukturlarında Anomal Karboksil Protonlaşma Hallarının, Aşağı Maneəli Hidrogen Rabitələrinin (LBHB) və Mikro-mühit Dielektrik Ekranlaşmasının Struktur İdentifikasiyası**
 
-**Müəlliflər:** Carbox Architecture Team və CarboxMol Engineering Group  
+**Müəlliflər:** Suleiman M Hajizadeh & Garib N Murshudov  
 *Buraxılış İli:* 2026  
 *Platforma:* Carbox Hesablama Strukturlu Biologiya Platforması  
-\* *Əlaqədar müəllif:* `team@carbox.org`
+\* *Əlaqədar müəllif:* `suleyman.hacizade1@gmail.com`
 
 ---
 
@@ -40,7 +40,7 @@ Sistem iki əsas platformadan ibarətdir:
 
 ### Mənbə Kodundan Quraşdırma
 ```bash
-git clone https://github.com/carbox/carbox.git
+git clone https://github.com/project-carbox/carbox.git
 cd Carbox
 pip install -e .
 ```
@@ -58,19 +58,19 @@ carboxmol --help
 
 Tədqiqatlarınızda Carbox və ya CarboxMol paketindən istifadə etdikdə, zəhmət olmasa aşağıdakı elmi əsərə istinad edin:
 
-> **Carbox & CarboxMol Engineering Group (2026).**  
+> **Suleiman M Hajizadeh & Garib N Murshudov (2026).**  
 > *Carbox & CarboxMol: Automated Identification, Quantum Simulation, and Refinement of Anomalous Carboxyl Protonation States in Macromolecular Crystallography.*  
 > Molekulyar Biologiya İnstitutu, Bakı və MRC Molekulyar Biologiya Laboratoriyası, Kembric, Böyük Britaniya.
 
 ### BibTeX
 ```bibtex
 @article{Carbox2026,
-  author    = {{Carbox & CarboxMol Engineering Group}},
+  author    = {{Suleiman M Hajizadeh & Garib N Murshudov}},
   title     = {Structural Identification of Anomalous Carboxyl Protonation States, Low-Barrier Hydrogen Bonds, and Microenvironment Dielectric Shielding in High-Resolution Protein Crystal Structures},
   journal   = {Carbox & CarboxMol Macromolecular Crystallography Suite},
   year      = {2026},
   publisher = {Carbox Computational Structural Biology Platform},
-  url       = {https://github.com/carbox/carbox}
+  url       = {https://github.com/project-carbox/carbox}
 }
 ```
 

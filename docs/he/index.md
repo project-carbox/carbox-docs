@@ -5,7 +5,7 @@
 **מחברים:** צוות הארכיטקטורה של Carbox וקבוצת ההנדסה של CarboxMol  
 *שנת פרסום:* 2026  
 *פלטפורמה:* פלטפורמת Carbox לביולוגיה מבנית וחישובית  
-\* *דוא"ל להתכתבות:* `team@carbox.org`
+\* *דוא"ל להתכתבות:* `suleyman.hacizade1@gmail.com`
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### התקנה מקוד המקור
 ```bash
-git clone https://github.com/carbox/carbox.git
+git clone https://github.com/project-carbox/carbox.git
 cd Carbox
 pip install -e .
 ```
@@ -51,19 +51,19 @@ pip install -e .
 
 בעת שימוש בחבילה במחקר אקדמי או תעשייתי, יש לצטט:
 
-> **Carbox & CarboxMol Engineering Group (2026).**  
+> **Suleiman M Hajizadeh & Garib N Murshudov (2026).**  
 > *Carbox & CarboxMol: Automated Identification, Quantum Simulation, and Refinement of Anomalous Carboxyl Protonation States in Macromolecular Crystallography.*  
 > Carbox Computational Structural Biology Platform.
 
 ### פורמט BibTeX
 ```bibtex
 @article{Carbox2026,
-  author    = {{Carbox & CarboxMol Engineering Group}},
+  author    = {{Suleiman M Hajizadeh & Garib N Murshudov}},
   title     = {Structural Identification of Anomalous Carboxyl Protonation States, Low-Barrier Hydrogen Bonds, and Microenvironment Dielectric Shielding in High-Resolution Protein Crystal Structures},
   journal   = {Carbox & CarboxMol Macromolecular Crystallography Suite},
   year      = {2026},
   publisher = {Carbox Computational Structural Biology Platform},
-  url       = {https://github.com/carbox/carbox}
+  url       = {https://github.com/project-carbox/carbox}
 }
 ```
 
