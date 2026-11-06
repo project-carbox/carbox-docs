@@ -8,7 +8,7 @@
 * **Suleiman M Hajizadeh** — Founder, Lead Software Architect & Computational Biophysicist
 * **Garib N Murshudov** — Senior Scientific Advisor, Head of Computational Structural Biology, MRC Laboratory of Molecular Biology (Cambridge, UK)
 
-**Version:** 0.4.5 (2026 Milestone Edition)  
+**Version:** 0.4.5  
 **License:** Mozilla Public License 2.0 (MPL-2.0)  
 **Repository:** [https://github.com/project-carbox/carbox](https://github.com/project-carbox/carbox)
 
@@ -1072,8 +1072,8 @@ A thorough legal and intellectual property audit confirms that:
 2. **Murshudov, G. N., et al. (2011).** Maximum-likelihood refinement of macromolecular crystal structures. *Acta Crystallographica Section D: Biological Crystallography*, 67(4), 355–367.
 3. **Yamashita, K., Palmer, C. M., Burnley, T., & Murshudov, G. N. (2021).** Cryo-EM model refinement using Servalcat. *Acta Crystallographica Section D: Structural Biology*, 77(11), 1282–1291.
 4. **Wojdyr, M. (2022).** GEMMI: a library for structural biology. *Journal of Applied Crystallography*, 55(4), 1105–1112.
-5. **CarboxMol Team (2026).** CarboxMol WebGL: High-performance molecular visualization in modern browsers. *Carbox Technical Monograph*, 1, 1–25.
-6. **Carbox Biophysics Group (1994).** Low-barrier hydrogen bonds and enzymic catalysis. *Science*, 264(5167), 1887–1894.
+5. **Rego, N., & Koes, D. (2015).** 3Dmol.js: molecular visualization with WebGL. *Bioinformatics*, 31(8), 1322–1324.
+6. **Cleland, W. W., & Kreevoy, M. M. (1994).** Low-barrier hydrogen bonds and enzymic catalysis. *Science*, 264(5167), 1887–1894.
 7. **Frey, P. A., Whitt, S. A., & Tobin, J. B. (1994).** Low-barrier hydrogen bonds and low fractionation factors in enzymic reactions. *Science*, 264(5167), 1927–1930.
 8. **Warshel, A., Papazyan, A., & Kollman, P. A. (1995).** On low-barrier hydrogen bonds and enzyme catalysis. *Science*, 269(5220), 102–104.
 9. **Cruickshank, D. W. J. (1999).** Remarks about protein structure precision. *Acta Crystallographica Section D: Biological Crystallography*, 55(3), 583–601.

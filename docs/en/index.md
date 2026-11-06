@@ -3,7 +3,7 @@
 **Structural Identification of Anomalous Carboxyl Protonation States, Low-Barrier Hydrogen Bonds, and Microenvironment Dielectric Shielding in High-Resolution Macromolecular Crystal Structures**
 
 **Authors:** Suleiman M Hajizadeh & Garib N Murshudov  
-*Release:* 2026  
+*Version:* 0.4.5  
 *Platform:* Carbox Computational Structural Biology Platform  
 \* *Corresponding author:* `suleyman.hacizade1@gmail.com`
 

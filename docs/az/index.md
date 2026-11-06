@@ -2,8 +2,8 @@
 
 **Yüksək Ayırdetməli Makromolekulyar Kristal Strukturlarında Anomal Karboksil Protonlaşma Hallarının, Aşağı Maneəli Hidrogen Rabitələrinin (LBHB) və Mikro-mühit Dielektrik Ekranlaşmasının Struktur İdentifikasiyası**
 
-**Müəlliflər:** Suleiman M Hajizadeh & Garib N Murshudov  
-*Buraxılış İli:* 2026  
+**Müəlliflər:** Süleyman M. Hacızadə və Qərib N. Mürşüdov  
+*Versiya:* 0.4.5  
 *Platforma:* Carbox Hesablama Strukturlu Biologiya Platforması  
 \* *Əlaqədar müəllif:* `suleyman.hacizade1@gmail.com`
 
