@@ -44,6 +44,7 @@ sitemap_url_scheme = '{link}'
 
 # Global metadata for Search Engine Optimization (SEO / Google / Bing)
 html_meta = {
+    'google-site-verification': 'med3XHPJzcSjHLpdN-jmNKekn-MFZcQE8IwPeFbCk7o',
     'description': 'Official scientific documentation for Project Carbox: high-throughput macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and Low-Barrier Hydrogen Bond (LBHB) discovery.',
     'keywords': 'Carbox, Macromolecular Crystallography, LBHB, Low Barrier Hydrogen Bonds, Garib Murshudov, Suleiman Hajizadeh, Servalcat, REFMAC5, PDB validation, carboxyl protonation, pKa shifts, PROPKA, crystallography, structural biology',
     'author': 'Suleiman M Hajizadeh & Garib N Murshudov',
