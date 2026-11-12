@@ -1,0 +1,112 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<!-- Senior/Architect-Level SEO & Search Engine Discovery Meta Tags -->
+<meta name="description" content="{{ title|striptags|e }} — Carbox (v0.4.5): High-Throughput Macromolecular Crystallographic Validation, Anomalous Carboxyl Protonation States, Low-Barrier Hydrogen Bonds (LBHB), and Dielectric Shielding by Suleiman M Hajizadeh &amp; Garib N Murshudov (MRC-LMB Cambridge &amp; IMB Baku)." />
+<meta name="keywords" content="Carbox, Project Carbox, {{ title|striptags|e }}, Suleiman M Hajizadeh, Süleyman Hacızadə, Garib N Murshudov, Qərib Mürşüdov, Macromolecular Crystallography, Low-Barrier Hydrogen Bond, LBHB, Anomalous Carboxyl Protonation, Dielectric Shielding, REFMAC5, Servalcat, CCP4, Gemmi, PROPKA pKa Shift, Tukey IQR Outlier, Fisher Z RSCC, Electron Density Validation, PDB Screening, MRC LMB Cambridge, Western Caspian University, Institute of Molecular Biology, Structural Biology" />
+<meta name="author" content="Suleiman M Hajizadeh &amp; Garib N Murshudov" />
+<meta name="creator" content="Suleiman M Hajizadeh &amp; Garib N Murshudov" />
+<meta name="publisher" content="Project Carbox (MRC-LMB Cambridge &amp; IMB Baku)" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="geo.region" content="AZ-BA" />
+<meta name="geo.placename" content="Baku, Azerbaijan; Cambridge, United Kingdom" />
+<meta name="geo.position" content="40.4093;49.8671" />
+<meta name="ICBM" content="40.4093, 49.8671" />
+
+<!-- Canonical & Multilingual Alternates -->
+<link rel="alternate" hreflang="en" href="https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html" />
+<link rel="alternate" hreflang="az" href="https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html" />
+<link rel="alternate" hreflang="he" href="https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html" />
+<link rel="alternate" hreflang="x-default" href="https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html" />
+
+<!-- Open Graph (Facebook, LinkedIn, Slack, Telegram, WhatsApp) -->
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Project Carbox Documentation" />
+<meta property="og:title" content="{{ title|striptags|e }} | Carbox Documentation (v0.4.5)" />
+<meta property="og:description" content="{{ title|striptags|e }} — Official scientific documentation for Project Carbox by Suleiman M Hajizadeh &amp; Garib N Murshudov: macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and LBHB discovery." />
+<meta property="og:url" content="https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html" />
+<meta property="og:image" content="https://project-carbox.github.io/assets/og-image.png" />
+<meta property="og:image:alt" content="Project Carbox Macromolecular Crystallography Documentation" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="az_AZ" />
+<meta property="og:locale:alternate" content="he_IL" />
+
+<!-- Twitter / X Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@project_carbox" />
+<meta name="twitter:creator" content="@SuleimanHajizadeh" />
+<meta name="twitter:title" content="{{ title|striptags|e }} | Carbox Documentation (v0.4.5)" />
+<meta name="twitter:description" content="{{ title|striptags|e }} — Official scientific documentation for Project Carbox by Suleiman M Hajizadeh &amp; Garib N Murshudov." />
+<meta name="twitter:image" content="https://project-carbox.github.io/assets/og-image.png" />
+
+<!-- Schema.org JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html#article",
+      "headline": "{{ title|striptags|e }} — Carbox Documentation (v0.4.5)",
+      "name": "{{ title|striptags|e }}",
+      "description": "Official scientific documentation for Project Carbox: high-throughput macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and Low-Barrier Hydrogen Bond (LBHB) discovery.",
+      "url": "https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html",
+      "inLanguage": ["en", "az", "he"],
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Suleiman M Hajizadeh",
+          "url": "https://project-carbox.github.io/"
+        },
+        {
+          "@type": "Person",
+          "name": "Garib N Murshudov",
+          "affiliation": "MRC Laboratory of Molecular Biology (LMB), Cambridge"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Project Carbox",
+        "url": "https://project-carbox.github.io/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://project-carbox.github.io/assets/carbox_logo.png"
+        }
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Project Carbox",
+        "url": "https://project-carbox.github.io/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Project Carbox Portal",
+          "item": "https://project-carbox.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Carbox Documentation",
+          "item": "https://project-carbox.readthedocs.io/en/latest/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ title|striptags|e }}",
+          "item": "https://project-carbox.readthedocs.io/en/latest/{{ pagename }}.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}

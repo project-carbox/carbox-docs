@@ -32,8 +32,12 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
-    'sphinx_sitemap',
 ]
+try:
+    import sphinx_sitemap  # noqa: F401
+    extensions.append('sphinx_sitemap')
+except ImportError:
+    pass
 
 # Sitemap configuration
 sitemap_url_scheme = '{link}'

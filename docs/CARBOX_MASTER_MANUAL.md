@@ -4,9 +4,11 @@
 
 ---
 
-### Authors & Scientific Direction
-* **Suleiman M Hajizadeh** — Founder, Lead Software Architect & Computational Biophysicist
-* **Garib N Murshudov** — Senior Scientific Advisor, Head of Computational Structural Biology, MRC Laboratory of Molecular Biology (Cambridge, UK)
+### Author & Developer
+* **Suleiman M Hajizadeh** — Concept, Lead Software Architecture & Computational Development
+
+### Scientific Inspiration & Theoretical Foundation
+* **Prof. Garib N Murshudov** (MRC Laboratory of Molecular Biology, Cambridge, UK) — Invaluable theoretical inspiration in macromolecular crystallographic refinement (REFMAC5, ProSMART, Servalcat) and scientific seminar presentation (20 October 2026).
 
 **Version:** 0.4.5  
 **License:** Mozilla Public License 2.0 (MPL-2.0)  
@@ -624,7 +626,7 @@ The `carbox/` package comprises eleven specialized computational biophysics modu
   * Exports network topology into Cytoscape-compatible JSON and standard adjacency matrices.
 
 ### 7.4 `criteria.py`: Implementation of Carbox Validation Criteria
-* **Purpose:** Implements the complete statistical decision tree developed by Garib N Murshudov and Suleiman M Hajizadeh.
+* **Purpose:** Implements the statistical decision tree inspired by crystallographic validation principles and implemented by Suleiman M Hajizadeh.
 * **Key Functions:**
   * `compute_b_statistics(b_factors)`: Extracts all atomic B-factors, computing median, quartiles, IQR, mean, and standard deviation.
   * `evaluate_dyad_criteria(dyad, b_stats)`: Classifies each carboxyl contact against Tukey upper/lower whiskers and standardized Fisher Z-scores.
@@ -881,7 +883,7 @@ Carbox Studio embeds a complete refinement configuration suite accessible via th
 ### 9.7 Trilingual Internationalization Engine (EN, AZ, HE) & RTL Typography
 Carbox Studio features complete, native internationalization across three languages:
 * **English (`en`):** The global standard of scientific publishing.
-* **Azerbaijani (`az`):** Honoring the native heritage of the authors, Suleiman M Hajizadeh and Garib N Murshudov.
+* **Azerbaijani (`az`):** Honoring the native heritage of the author, Suleiman M Hajizadeh, and celebrating Azerbaijani contributions to structural biology.
 * **Hebrew (`he`):** Featuring complete bidirectional **Right-to-Left (RTL)** layout mirroring, customized Heebo typography, mirrored flexbox containers, and culturally tailored iconography.
 
 ---
@@ -1044,13 +1046,13 @@ The entire Carbox & CarboxMol project is licensed under the **Mozilla Public Lic
 3. **Larger Works:** The MPL-2.0 explicitly permits combining Carbox code with proprietary or differently-licensed software into a "Larger Work," provided the MPL-covered files remain open-source under MPL-2.0.
 4. **Patent Grant:** Contributors grant a non-exclusive, worldwide, royalty-free patent license covering patent claims necessarily infringed by their contributions.
 
-### 11.2 Dual Authorship Attribution & Academic Moral Rights
-In accordance with international academic integrity standards and intellectual property conventions, copyright and authorship are universally attributed to:
-* **Suleiman M Hajizadeh** — Concept, Lead Software Architecture, Core Algorithm Engineering, Web Studio Engine.
-* **Garib N Murshudov** — Scientific Directorship, Crystallographic Validation Philosophy, Statistical Formulation, Senior Advisorship.
+### 11.2 Authorship Attribution & Academic Moral Rights
+In accordance with international academic integrity standards and intellectual property conventions:
+* **Suleiman M Hajizadeh** — Sole Software Author, Architecture, Core Algorithm Engineering, Web Studio Engine.
+* **Prof. Garib N Murshudov** — Invaluable Theoretical Inspiration, Crystallographic Refinement Methodology Reference.
 
-All academic papers, theses, posters, software distributions, or commercial products utilizing the Carbox codebase or its derived findings must include explicit attribution:
-> *Suleiman M Hajizadeh & Garib N Murshudov (2026). Carbox & CarboxMol: Computational Framework for High-Throughput Detection, Carbox Validation, and Refinement of Anomalous Carboxylate Microenvironments in Macromolecular Crystallography. Version 0.4.5.*
+All academic papers, theses, posters, software distributions, or projects utilizing the Carbox codebase should cite:
+> *Suleiman M Hajizadeh (2026). Carbox: Macromolecular Coordinate & Geometry Calculation Engine for Carboxyl Microenvironments and Stereochemical Validation. Version 0.4.5.*
 
 ### 11.3 Open-Source Crystallographic Ecosystem & Standards
 Carbox and CarboxMol operate upon and harmonize with open-source structural biology libraries and standards:
