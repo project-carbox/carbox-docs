@@ -44,9 +44,10 @@ sitemap_url_scheme = '{link}'
 
 # Global metadata for Search Engine Optimization (SEO / Google / Bing)
 html_meta = {
-    'google-site-verification': 'lbqn6nIPchEP3d12Vf4UQmQpyKhJ1Mzq-di2S-t3rF0',
-    'description': 'Official scientific documentation for Project Carbox: high-throughput macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and Low-Barrier Hydrogen Bond (LBHB) discovery.',
-    'keywords': 'Carbox, Macromolecular Crystallography, LBHB, Low Barrier Hydrogen Bonds, Garib Murshudov, Suleiman Hajizadeh, Servalcat, REFMAC5, PDB validation, carboxyl protonation, pKa shifts, PROPKA, crystallography, structural biology',
+    'google-site-verification': 'med3XHPJzcSjHLpdN-jmNKekn-MFZcQE8IwPeFbCk7o',
+    'google-site-verification-secondary': 'lbqn6nIPchEP3d12Vf4UQmQpyKhJ1Mzq-di2S-t3rF0',
+    'description': 'Official scientific documentation for Project Carbox: high-throughput macromolecular crystallographic validation, anomalous carboxyl protonation, Servalcat refinement, and Low-Barrier Hydrogen Bond (LBHB) discovery by Suleiman M Hajizadeh & Prof. Garib N Murshudov.',
+    'keywords': 'Carbox, Project Carbox, Carbox Platform, Carbox CLI, Carbox Python API, Suleiman M Hajizadeh, Suleiman Hajizadeh, Süleyman M Hacızadə, Garib N Murshudov, Garib Murshudov, Qərib N Mürşüdov, MRC Laboratory of Molecular Biology, MRC LMB Cambridge, Institute of Molecular Biology, Western Caspian University, Macromolecular Crystallography, Protein Crystallography, Structural Biology, Structural Bioinformatics, Anomalous Carboxyl Protonation, Carboxyl Protonation States, Shared Protons, Low-Barrier Hydrogen Bond, LBHB, Short Strong Hydrogen Bond, SSHB, Dielectric Shielding, Born Desolvation Energy, PROPKA 3, pKa Shift Calculation, REFMAC5, Servalcat, Gemmi, Tukey IQR B-factor Outlier, Fisher Z RSCC, Electron Density Map Validation, 2mFo-DFc Map Carving, 1KZK, 1OEW, 2DSX, 1FKN, Endothiapepsin, Rubredoxin, BACE1, HIV-1 Protease, bioinformatika Azərbaycan, kristalloqrafiya',
     'author': 'Suleiman M Hajizadeh & Garib N Murshudov',
     'robots': 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
     'googlebot': 'index, follow',
